@@ -1,5 +1,5 @@
 body{
-    background-image: url(./CONTENT/metropolitan_opera_house_concert_by_pianist_josef_hofmann.webp);
+    background-image: url("metropolitan_opera_house_concert_by_pianist_josef_hofmann.webp");
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
