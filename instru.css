@@ -1,0 +1,39 @@
+body{
+    background-image: url(./CONTENT/metropolitan_opera_house_concert_by_pianist_josef_hofmann.webp);
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20%;
+}
+.key{
+    
+    border: 5px solid black;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);  
+    transition: all 0.1s;
+}
+
+.key h2{
+    color: white;
+}
+.key p{
+    color: darkgoldenrod;
+    font-weight: 600;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: darkgoldenrod;
+    box-shadow: 0 0 10px darkgoldenrod;
+    color: yellow;
+}
